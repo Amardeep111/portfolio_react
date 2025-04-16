@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/NavBar'
+import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Teachnology from './components/Teachnologies'
@@ -17,7 +17,7 @@ function App() {
         </div>
       </div>
       <div className="container mx-auto px-8">
-      <Navbar/>
+      <NavBar/>
       <Hero />
       <About />
       <Teachnologies />
