@@ -147,7 +147,29 @@ const Contact = () => {
                 >
                     <div className="relative w-96 h-96">
                         <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-2xl opacity-30 animate-spin-slow"></div>
-                        <div className="relative w-full h-full bg-[#1a1a2e] rounded-full border border-neutral-800 shadow-2xl"></div>
+                        <svg className="relative w-full h-full" viewBox="0 0 400 400">
+                            {/* Bold decorative elements */}
+                            
+                            
+                            {/* Bold spray paint effect */}
+                            {[...Array(30)].map((_, i) => (
+                                <motion.circle
+                                    key={i}
+                                    cx={Math.random() * 400}
+                                    cy={Math.random() * 400}
+                                    r={Math.random() * 5 + 2}
+                                    fill="currentColor"
+                                    initial={{ opacity: 0, scale: 0 }}
+                                    animate={{ opacity: [0, 1, 0], scale: [0, 1.2, 0] }}
+                                    transition={{
+                                        duration: 1.5,
+                                        delay: i * 0.05,
+                                        repeat: Infinity,
+                                        repeatType: "reverse"
+                                    }}
+                                />
+                            ))}
+                        </svg>
                     </div>
                 </motion.div>
             </div>
