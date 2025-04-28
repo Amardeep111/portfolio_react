@@ -58,18 +58,18 @@ export const PROJECTS = [
     technologies: ["HTML", "ReactJS", "TailwindCSS", "Framer Motion"],
   },
   {
-    title: "MediCare",
+    title: "Medical Website",
     image: project3,
     description:
       "A responsive website built with modern technologies, integrating Bolt AI for smart interactions and enhanced functionality.",
-    technologies: ["HTML", "Bolt AI", "ReactJS", "TailwindCSS"],
+    technologies: ["HTML", "mySQL", "ReactJS", "TailwindCSS"],
   },
   {
-    title: "Blogging Platform",
+    title: "",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "I built a dynamic, responsive travel website that inspires exploration and adventure through a clean design and seamless user experience.",
+    technologies: ["HTML", "CSS", "Express", "mySQL"],
   },
 ];
 
