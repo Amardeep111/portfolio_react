@@ -65,7 +65,7 @@ export const PROJECTS = [
     technologies: ["HTML", "mySQL", "ReactJS", "TailwindCSS"],
   },
   {
-    title: "",
+    title: "Travel Website",
     image: project4,
     description:
       "I built a dynamic, responsive travel website that inspires exploration and adventure through a clean design and seamless user experience.",
